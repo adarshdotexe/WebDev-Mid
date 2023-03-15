@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="success" method="post" id="form">
+        <label for="fname">First Name: </label>
+        <input type="text" name="First Name" id="fname">
+        <label for="lname">Last Name: </label>
+        <input type="text" name="Last Name" id="lname">
+        <label for="emailid">Email Address: </label>
+        <input type="email" name="Email ID" id="emailid">
+        <label for="pass"> Password: </label>
+        <input type="password" name="Password" id="pass">
+        <label for="cpass"> Confirm Password: </label>
+        <input type="text" name="Confirm Password" id="cpass">
+        <img src="" alt="Capcha Image" id="captchaimage">
+        <label for="captcha"> Enter Captcha: </label>
+        <input type="text" name="Captcha" id="captcha">
+        <input type="button" value="Submit" onclick="validate()">
+    </form>
+    <script src="./script.js"></script>
+
+</body>
+</html>

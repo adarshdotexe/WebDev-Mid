@@ -1,0 +1,12 @@
+label {
+    display: block;
+}
+img {
+    display: block;
+}
+button {
+    display: block;
+}
+input:focus {
+    background-color: yellowgreen;
+}
